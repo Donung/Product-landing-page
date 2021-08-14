@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #757575;
+    font-size: 400;
+    background: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #4f84c4;
+    transition: 0.5;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #757575;
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    color: #757575;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    color: #757575;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+/* header nav css */
+#nav {
+    padding: 20px 0;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow: 0 px 10px rgba(0, 0, 0, .05);
+    transition: all 0.5s;
+    z-index: 9;
+}
+
+#nav #logo {
+    float: left;
+}
+
+#nav #logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 50px;
+}
+
+#nav-menu-container {
+    position: relative;
+    float: right;
+    max-height: 50px;
+}
+
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu li {
+    position: relative;
+    float: left;
+    margin: 15px 15px 0 15px;
+    white-space: nowrap;
+}
+
+.nav-menu a {
+    padding: 0 0 3px 0;
+    text-decoration: none;
+    display: inline-block;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.nav-menu a::after {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 2px;
+    bottom: 2px;
+    left: 1px;
+    background: #4f84c4;
+    opacity: 0;
+    transition: .3s;
+}
+
+.nav-menu li:hover > a,
+.nav-menu > .menu-active > a::after {
+    color: #4f84c4;
+}
+
+.nav-menu li:hover > a::after {
+    opacity: 1;
+}
