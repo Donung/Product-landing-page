@@ -114,3 +114,67 @@ h6 {
 .nav-menu li:hover > a::after {
     opacity: 1;
 }
+
+/* Header css */
+#header {
+    position: relative;
+    padding: 90px 0;
+    margin-top: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: #fafafa;
+}
+
+#header .header-content {
+    width: 100%;
+    text-align: left;
+}
+
+#header .header-content h2 {
+    color: #666666;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#header .header-content h2 span {
+    color: #4f84c4;
+}
+
+#header .header-content ul {
+    margin-left: 32px;
+    margin-bottom: 30px;
+}
+
+#header .header-content ul li {
+    font-size: 22px;
+}
+
+#header .header-content ul li i {
+    color: #4f84c4;
+}
+
+#header .header-content .btn {
+    padding: 7px 20px;
+    color: #4f84c4;
+    font-size: 22px;
+    border: 2px solid #4f84c4;
+}
+
+#header .header-content .btn:hover {
+    color: #ffffff;
+    background: #4f84c4;
+}
+
+#header .header-img {
+    position: relative;
+    overflow: hidden;
+    text-align: right;
+}
+
+#header .header-img img {
+    width: 100%;
+    height: auto;
+}
