@@ -35,6 +35,28 @@ h6 {
     padding: 0;
 }
 
+/* Back to top */
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #4f84c4;
+    color: #ffffff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 5px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+.back-to-top i {
+    padding-top: 12px;
+    color: #ffffff;
+}
+
 /* header nav css */
 #nav {
     padding: 20px 0;
