@@ -260,3 +260,21 @@ h6 {
     font-size: 45px;
     color: #dddddd;
 }
+#process .col-md-4:last-child .process-col::after {
+    display: none;
+}
+#process .process-col i {
+    color: #4f84c4;
+    font-size: 90px;
+    margin-bottom: 15px;
+}
+#process .process-col h2 {
+    color: #4f84c4;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#process .process-col p {
+    font-size: 16px;
+    margin: 0;
+}
