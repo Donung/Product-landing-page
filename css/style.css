@@ -187,55 +187,55 @@ h6 {
     text-align: center;
     margin: 0;
 }
-#feature {
+#features {
     position: relative;
     padding: 90px 0;
     background: #ffffff;
 }
-#feature .col-md-4:first-child .product-feature {
+#features .col-md-4:first-child .product-feature {
     text-align: right;
 }
-#feature .product-feature {
+#features .product-feature {
     position: relative;
     width: 100%;
     float: left;
     margin-bottom: 45px;
 }
-#feature .product-feature:last-child {
+#features .product-feature:last-child {
     margin: 0;
 }
-#feature .product-icon {
+#features .product-icon {
     position: relative;
     width: 70px;
     height: inherit;
     float: left;
 }
-#feature .product-icon i {
+#features .product-icon i {
     color: #4f84c4;
     font-size: 50px;
     margin-top: 5px;
 }
-#feature .product-content {
+#features .product-content {
     position: relative;
     width: calc(100% - 70px);
     float: left;
 }
-#feature .product-feature h2 {
+#features .product-feature h2 {
     color: #4f84c4;
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 5px;
 }
-#feature .product-feature p {
+#features .product-feature p {
     margin-bottom: 0;
 }
-#feature .product-img {
+#features .product-img {
     position: relative;
     width: 100%;
     padding: 0 30px;
     overflow: hidden;
 }
-#feature .product-img img{
+#features .product-img img{
     width: 100%;
 }
 
