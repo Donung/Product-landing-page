@@ -504,3 +504,28 @@ h6 {
     border: 2px solid #4f84c4;
     border-radius: 4px;
 }
+
+/* Footer Section */
+#footer {
+    position: relative;
+    padding: 30px 0;
+    background: #222222;
+}
+#footer .col-md-6:first-child p {
+    text-align: left;
+}
+#footer .col-md-6:last-child p {
+    text-align: right;
+}
+#footer p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+#footer p a {
+    font-weight: 700;
+}
+#footer p a:hover {
+    color: #ffffff;
+}
